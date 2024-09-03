@@ -42,10 +42,19 @@ This project follows the CRISP-DM methodology, covering the following steps:
 - `models/`: Saved models and their performance metrics.
 
 ## Using
-In terminal to activate python enviroment 'source venv/bin/activate', be sure to be in root folder /wine-quality-prediction.
+Check for 'which python' and 'python --version'
+
+Install python3.11.7:
+    -> run python3.11.7 -m venv venv
+
+Windows -> venv\Scripts\activate 
+Mac -> source venv/bin/activate
+
+Check for 'which python' and 'python --version'
+
+In terminal to activate python enviroment 'source venv/bin/activate' for mac and venv\Scripts\activate for windows, be sure to be in root folder /wine-quality-prediction.
 
 If deployment doesn't work, run: python3 app/runNotebook.py inside the enviroment to produce the models at the same librarys as the execution of python3 app/app.py
-
 
 ## Installation
 To install the necessary packages, run:
