@@ -50,8 +50,6 @@ Install 'which python result':
 Windows -> venv\Scripts\activate 
 Mac -> source venv/bin/activate
 
-Check for 'which python' and 'python --version'
-
 In terminal to activate python enviroment 'source venv/bin/activate' for mac and venv\Scripts\activate for windows, be sure to be in root folder /wine-quality-prediction.
 
 If deployment doesn't work, run: python3 app/runNotebook.py inside the enviroment to produce the models at the same librarys as the execution of python3 app/app.py
