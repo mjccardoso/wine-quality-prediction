@@ -44,8 +44,8 @@ This project follows the CRISP-DM methodology, covering the following steps:
 ## Using
 Check for 'which python' and 'python --version'
 
-Install python3.11.7:
-    -> run python3.11.7 -m venv venv
+Install 'which python result':
+    run -> 'which python result' -m venv venv
 
 Windows -> venv\Scripts\activate 
 Mac -> source venv/bin/activate
